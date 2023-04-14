@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+
+.about-section {
+  background-color: white;
+  color: black;
+  padding: 100px 0;
+  text-align: center;
+  font-family: 'Syne', sans-serif;
+  margin-top: 20px;
+  margin:0px;
+  padding:50px;
+  font-weight: 400;
+  
+}
+
+.about-heading {
+  font-size: 3rem;
+  margin-bottom: 50px;
+  background-image: linear-gradient(to left bottom, #2f005d, #473186, #615caf, #7e88d7, #9eb5ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Syne', sans-serif;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-bottom: 50px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+}
+
+.companies-supported-heading {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+.company-logos {
+   padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.company-logo {
+  font-size: 3rem;
+  margin: 0 20px;
+  height: 50px;
+}
+
+.text {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}

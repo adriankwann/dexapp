@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+
+.create {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  border: grey solid;
+  padding: 30px;
+  /* background-image: linear-gradient(to right top, #000000, #1d0011, #270023, #28013c, #060d5c); */
+  
+  border-radius: 25px;
+}
+.create label {
+  text-align: left;
+  display: block;
+  justify-self: left;
+}
+.create h2 {
+  font-size: 35px;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #939ae8, #899af0, #7e9bf7, #828eff, #8f7fff, #a36bff, #ba4fff);
+  -webkit-background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Syne', sans-serif;
+}
+
+.swapbox {
+  display: flex;
+  background-image: linear-gradient(to right top, #000000, #1d0011, #270023, #28013c, #060d5c);
+  align-items: center;
+  justify-content: center;
+  margin: 15px 15px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #565656;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+ 
+}
+
+.swapbox:hover {
+  background-image: linear-gradient(to left bottom, #000000, #1d0011, #270023, #28013c, #060d5c);
+  transition: 1s;
+}
+.create input, .create textarea, .create select {
+  width: 200px;
+  padding: 6px 10px;
+  margin: 13px 20px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  display: block;
+  resize: none;
+  height: 40px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  background: #ddd;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.create select:focus {
+  border-color: purple solid;
+  outline: 0;
+}
+
+.create textarea:focus {
+  border-color: purple solid;
+  outline: 0;
+}
+.create button {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 1rem 2rem;
+  border-radius: 45px;
+  border: solid white;
+  margin-top: 15px;
+  width: px;
+  
+  color: white;
+  cursor: pointer;
+  
+  background-image: linear-gradient(to right top, #000000, #1d0011, #270023, #28013c, #060d5c);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1)
+}
+
+.create button:hover {
+  
+  background-image: linear-gradient(to left bottom, #000000, #1d0011, #270023, #28013c, #060d5c);
+  color: white;
+}
+
+.create option {
+  background-color: white;
+}
+
+
+
+.wrap {
+    display: flex;
+    background-image: linear-gradient(to right bottom, #000000, #1d0110, #2b0221, #350036, #350252);  
+    background-repeat:no-repeat;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    justify-content: center;
+}
+
+form {
+  background-color: transparent;
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  font-weight: 300;
+}
+
+.icn {
+    height: 50px;
+}
+  
+  .ccontainer {
+    max-width: 1200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 20px;
+    justify-content:center;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+  }
+  
+  .col {
+    padding: 10px;
+    box-sizing: border-box;
+    flex-grow: 1;
+  }
+
+  .card-wrap {
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .card {
+    background-image: linear-gradient(to right top, #000000, #1d0011, #270023, #28013c, #060d5c);
+    background-repeat: no-repeat;
+    border-radius: 20px 20px;
+    padding: 20px;
+    transition: all 0.5s;
+    color: white;
+    border: solid white 1px;
+    height: 600px;
+    width: 800px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+  }
+
+  .card:after {  
+  content: "";
+  height: 70px;
+  width: 1px;  
+  position: absolute;  
+  left: -1px;
+  top: 65%;
+  transition: top, opacity;
+  transition-duration: 600ms;
+  transition-timing-function: ease;
+  background: linear-gradient(
+    transparent,
+    var(--primary-color),
+    transparent
+  );
+  opacity: 0;
+}
+.card:hover {
+  background-image: linear-gradient(to right bottom, #000000, #1d0011, #270023, #28013c, #060d5c);
+}
+
+.card:after {  
+  top: 65%;
+  opacity: 0;
+}
+
+.card:hover:after {
+  top: 25%;
+  opacity: 1;
+  
+}
+
+
+  .card-aave {
+    background: url("../icons/grid.jpg");
+    background-size: 750px;
+    border-radius: 20px 20px;
+    padding: 20px;
+    transition: all 0.1s;
+    color: white;
+    border: solid white 1px;
+    height: 300px;
+    width: 250px;
+    margin-left: 3rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    transition-timing-function: ease-in-out;
+    transition-duration: all 0.1s;
+  }
+
+  .card-aave:hover {
+    border: none;
+    background-size: default;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #939ae8, #899af0, #7e9bf7, #828eff, #8f7fff, #a36bff, #ba4fff);
+  }
+  
+  /* .card:hover {
+    border: none;
+    background-size: 2000px;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #939ae8, #899af0, #7e9bf7, #828eff, #8f7fff, #a36bff, #ba4fff);
+  } 
+  .card:hover #s {
+    border: none;
+    background-image: linear-gradient(to right top, #b6509e, #8b75cc, #4993df, #00a9da, #2ebac6);
+  } */
+  
+  .card-title {
+    font-size: 35px;
+    font-family: 'Syne', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .card-text {
+    color: #f5f5f5;
+    margin-top: 12px;
+    font-size: 17px;
+  }
+
+  .card-image {
+    height: 10px;
+    position: relative;
+    right: -200px;
+
+  }
+  
+  @media (max-width: 767px) {
+    .col {
+      flex-basis: 100%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .col {
+      flex-basis: calc(50% - 20px);
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .col {
+      flex-basis: calc(33.3333% - 20px);
+    }
+  }
+  

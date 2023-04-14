@@ -2,16 +2,35 @@
   "name": "crypto-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://adriankwann.github.io/dexapp",
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.12",
+    "@rainbow-me/rainbowkit": "^0.12.8",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/react-router-dom": "^5.3.3",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.3",
+    "ethers": "^5.7.2",
+    "framer-motion": "^10.3.2",
+    "qs": "^6.11.1",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^5.3.4",
     "react-scripts": "5.0.1",
+    "styled-components": "^5.3.9",
+    "wagmi": "^0.12.10",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +53,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }

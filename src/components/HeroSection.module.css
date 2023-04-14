@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
+
+.heroSection {
+    display: flex;
+   
+    height: 90vh;
+    background-image:  url("../icons/stars.png"), linear-gradient(to right bottom, #000000, #1d0110, #2b0221, #350036, #350252);
+    background-size: 50%, cover;
+    background-position-x: 100%, 50%;
+    background-position-y: 0px, 0%;
+    background-repeat:no-repeat, no-repeat;
+    /* justify-content: space-between; */
+    
+    
+  }
+  
+  .heroContent {
+    padding-left: 5rem;
+  }
+  
+  .heroText {
+    margin-left: 5rem;
+    margin-top: 10rem;
+    margin-right: 150px;
+  }
+  
+  .heroTitle {
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  
+  .heroTitle span {
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #939ae8, #899af0, #7e9bf7, #828eff, #8f7fff, #a36bff, #ba4fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  
+  
+  .ctaButton {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 1rem 2rem;
+    border-radius: 45px;
+    border: solid white;
+    margin-left: 5rem;
+    
+    color: white;
+    cursor: pointer;
+    
+    background: black;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1)
+  }
+
+  .ctaButton:hover {
+    
+    background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #939ae8, #899af0, #7e9bf7, #828eff, #8f7fff, #a36bff, #ba4fff);;
+    color: white;
+    border: none;
+  }
+  
+
+
+  .ani {
+    margin-right: 2rem;
+    margin-left: 6rem;
+    margin-top: 8rem;
+    height:250px;
+    /* position: absolute; */
+      /* top: 150px; */
+    
+  }
+
+  .ani2 {
+    
+    height:100px;
+    position: absolute;
+    top: 75px;
+    right: 335px;
+    rotate: 315deg;
+  }
+
+  .ani3 {
+    height:150px;
+    position: absolute;
+    right: -50px;
+    top: 350px;
+    rotate: 135deg;
+  }
+
+  .ani4 {
+    height: 100px;
+    position: absolute;
+    right: 325px;
+    top: 350px;
+    rotate: 215deg;
+  }
+
+  .dbridgelogo {
+    height: 60px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    
+  }
+
+  .stars {
+    -webkit-mask:"../icons/stars.png" center/contain no-repeat;
+    max-width:100%;
+  }
