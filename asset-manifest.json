@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/dexapp/static/css/main.f1438e24.css",
+    "main.js": "/dexapp/static/js/main.25a6b5c3.js",
+    "static/js/787.284a3ba0.chunk.js": "/dexapp/static/js/787.284a3ba0.chunk.js",
+    "static/media/swap.png": "/dexapp/static/media/swap.5dd89e830463c644ef5f.png",
+    "static/media/grid.jpg": "/dexapp/static/media/grid.d4d94fb9084a6ed8c54e.jpg",
+    "static/media/fin.png": "/dexapp/static/media/fin.6089c29dadfc8e62dc60.png",
+    "static/media/bar.png": "/dexapp/static/media/bar.82976fdffa031c24ce90.png",
+    "static/media/vec.png": "/dexapp/static/media/vec.02925359118a834c68ab.png",
+    "static/media/stars.png": "/dexapp/static/media/stars.c7c82eb02d1f5e069223.png",
+    "static/media/curve.png": "/dexapp/static/media/curve.65cfa16bd0fcc319408d.png",
+    "static/media/aave.png": "/dexapp/static/media/aave.e148933d7b972825cb5d.png",
+    "static/media/sushi.png": "/dexapp/static/media/sushi.26655881c7fcfe0070f5.png",
+    "static/media/eth.png": "/dexapp/static/media/eth.a85b6de0dc4a013ae2f8.png",
+    "static/media/circle.png": "/dexapp/static/media/circle.c4477cfcf6565cacc68b.png",
+    "static/media/uni.png": "/dexapp/static/media/uni.b26fd45eacb74a82fe93.png",
+    "static/media/lido.png": "/dexapp/static/media/lido.af047e10201c719a1c3e.png",
+    "static/media/frax.png": "/dexapp/static/media/frax.96b52c1f7f9b42026343.png",
+    "static/media/btc.png": "/dexapp/static/media/btc.82491fef997ab841639c.png",
+    "static/media/balancer.png": "/dexapp/static/media/balancer.6bf47ca8154c95893be1.png",
+    "static/media/cpnd.png": "/dexapp/static/media/cpnd.98b3480f0fe255a6a1ba.png",
+    "static/media/matic.png": "/dexapp/static/media/matic.1140771b39c8269a6d1b.png",
+    "static/media/bancor.png": "/dexapp/static/media/bancor.588ffca77f5dc8e0afe0.png",
+    "static/media/synthetix.png": "/dexapp/static/media/synthetix.ba737c5741a9f524ccbb.png",
+    "static/media/dai.png": "/dexapp/static/media/dai.196bd5b1178303158adc.png",
+    "static/media/tether.png": "/dexapp/static/media/tether.c1d587669942a5e9bc47.png",
+    "static/media/busd.png": "/dexapp/static/media/busd.171a77d833e22847b25e.png",
+    "static/media/mstable.png": "/dexapp/static/media/mstable.326e6e2262e6fcaeb0a2.png",
+    "static/media/dbridge.png": "/dexapp/static/media/dbridge.c44173daf9c35b51c263.png",
+    "index.html": "/dexapp/index.html",
+    "main.f1438e24.css.map": "/dexapp/static/css/main.f1438e24.css.map",
+    "main.25a6b5c3.js.map": "/dexapp/static/js/main.25a6b5c3.js.map",
+    "787.284a3ba0.chunk.js.map": "/dexapp/static/js/787.284a3ba0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1438e24.css",
+    "static/js/main.25a6b5c3.js"
+  ]
+}
