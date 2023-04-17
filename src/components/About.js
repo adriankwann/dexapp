@@ -18,6 +18,10 @@ import bancor from "../icons/bancor.png";
 import mstable from "../icons/mstable.png";
 import lido from "../icons/lido.png";
 import synthetix from "../icons/synthetix.png";
+import kyber from "../icons/kyberswap.png";
+import cryptocom from "../icons/cryptocom.png";
+import shiba from "../icons/shiba.png";
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {motion} from "framer-motion";
@@ -45,12 +49,12 @@ function About() {
                 <p className = "text">Uniswap</p>
               </motion.div>
               <motion.div whileHover={{ scale: 1.1 }}>
-                <img className="company-logo" src = {aave} data-aos = "zoom-in" alt = "aave logo"/>
-                <p className = "text" data-aos = "zoom-in">Aave</p>
+                <img className="company-logo" src = {cryptocom} data-aos = "zoom-in" alt = "aave logo"/>
+                <p className = "text" data-aos = "zoom-in">Crypto.com</p>
               </motion.div>
               <motion.div whileHover={{ scale: 1.1 }}>
-                <img className="company-logo" src = {compound} data-aos = "zoom-in" alt = "compound logo"/>
-                <p className = "text" data-aos = "zoom-in">Compound</p>
+                <img className="company-logo" src = {curve} data-aos = "zoom-in" alt = "compound logo"/>
+                <p className = "text" data-aos = "zoom-in">Curve</p>
               </motion.div>
               <motion.div whileHover={{ scale: 1.1 }}>
                 <img className="company-logo" src = {balancer} data-aos = "zoom-in" alt = "dydx logo"/>
@@ -75,6 +79,10 @@ function About() {
                 <p className = "text" data-aos = "zoom-in">Synthetix</p>
               </motion.div>
               
+              <motion.div whileHover={{ scale: 1.1 }}>
+                <img className="company-logo" src = {kyber} data-aos = "zoom-in" alt = "dydx logo"/>
+                <p className = "text" data-aos = "zoom-in">Kyber</p>
+              </motion.div>
     
               
             </div>
@@ -88,8 +96,8 @@ function About() {
               </motion.div>
 
               <motion.div whileHover={{ scale: 1.1 }}>
-                <img className="company-logo" src = {curve} data-aos = "zoom-in" alt = "curve logo"/>
-                <p className = "text" data-aos = "zoom-in">Curve</p>
+                <img className="company-logo" src = {shiba} data-aos = "zoom-in" alt = "curve logo"/>
+                <p className = "text" data-aos = "zoom-in">ShibaSwap</p>
               </motion.div>
 
               <motion.div whileHover={{ scale: 1.1 }}>
