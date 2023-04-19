@@ -186,7 +186,7 @@ const Content = () => {
 
       const background = useTransform(
         x,
-        [-200, 0, 200],
+        [-25, 0, 200],
         ["linear-gradient(to right top, #092652, #221a3a, #211124, #180913, #000000)", 
         "linear-gradient(to top, #051937, #171228, #190a1a, #12040d, #000000)", 
         "linear-gradient(to left top, #092652, #221a3a, #211124, #180913, #000000)"]
@@ -201,7 +201,7 @@ const Content = () => {
         <motion.div whileHover = {{scale: 1.05}} style = {{background, x}} className="create" drag
     dragConstraints={{
       top: -10,
-      left: 25,
+      left: -25,
       right: 25,
       bottom: 10,
     }}>

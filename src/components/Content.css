@@ -12,10 +12,12 @@
 .card__image,
 .text_empty,
 .p_empty {
-  background-image: linear-gradient(to right top, #ffffff, #f3ecff, #ebd7ff, #e7c1ff, #e7a9ff);
-  border-radius: 15px;
+  background-image: linear-gradient(to right, #1f2024 0%, #2c2d31 20%, #1f2024 40%, #1f2024 100%);
+
+
   background-size: 200% 100%;
   animation: 1.2s shine linear infinite;
+  border-radius: 5px;
 }
 
 .card__image {
@@ -25,7 +27,7 @@
   width: 90%;
   margin: auto;
   margin-top: 5px;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .card__content {
@@ -34,7 +36,7 @@
 
 .text_empty {
   height: 25px;
-  width: 90%;
+  width: 50%;
   margin-left: 40px;
   margin-bottom: 15px;
   margin-top: 0px;
@@ -182,7 +184,7 @@ form {
   /* display: flex;
   justify-content:space-between; */
   height: 400px;
-  border: 1px solid white;
+  border: 1px solid grey;
   margin-top: 30px;
  
   background-image: radial-gradient(circle, #000000, #0f070b, #180f16, #1d151f, #1f1a2a);
@@ -215,13 +217,13 @@ form {
 
 
   .card {
-    background-image: linear-gradient(to right top, #000000, #1d0011, #270023, #28013c, #060d5c);
+    background: black;
     background-repeat: no-repeat;
     border-radius: 20px 20px;
     padding: 20px;
     transition: all 0.5s;
     color: white;
-    border: solid grey 1px;
+    border: solid white 1px;
     height: 650px;
     width: 800px;
     font-family: 'Rubik', sans-serif;
@@ -249,9 +251,9 @@ form {
   );
   opacity: 0;
 }
-.card:hover {
+/* .card:hover {
   background-image: linear-gradient(to right bottom, #000000, #1d0011, #270023, #28013c, #060d5c);
-}
+} */
 
 .card:after {  
   top: 65%;
